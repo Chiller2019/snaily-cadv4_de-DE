@@ -1,15 +1,15 @@
 {
   "TruckLogs": {
-    "truckLogs": "LKW-Protokolle",
-    "createTruckLog": "LKW-Protokoll erstellen",
-    "editTruckLog": "LKW-Protokoll bearbeiten",
-    "deleteTruckLog": "LKW-Protokoll löschen",
-    "driver": "Fahrer",
-    "vehicle": "Fahrzeug",
-    "startedAt": "Angefangen am",
-    "endedAt": "Beendet am",
-    "noTruckLogs": "Du hast noch keinen Lkw-Protokoll.",
-    "notes": "Notizen",
-    "alert_deleteTruckLog": "Bist du sicher, dass Du dieses LKW-Protokoll löschen willst? Diese Aktion kann nicht rückgängig gemacht werden!"
+    "truckLogs": "Truck Logs",
+    "createTruckLog": "Create Truck Log",
+    "editTruckLog": "Edit Truck Log",
+    "deleteTruckLog": "Delete Truck Log",
+    "driver": "Driver",
+    "vehicle": "Vehicle",
+    "startedAt": "Started At",
+    "endedAt": "Ended At",
+    "noTruckLogs": "You don't have any truck logs yet.",
+    "notes": "Notes",
+    "alert_deleteTruckLog": "Are you sure you want to delete this truck log? This action cannot be undone."
   }
 }
