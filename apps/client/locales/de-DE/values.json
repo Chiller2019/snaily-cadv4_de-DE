@@ -1,217 +1,217 @@
 {
   "Values": {
-    "totalItems": "Total Items",
-    "values": "Values",
-    "shouldDo": "Should Do",
-    "color": "Color",
-    "callsign": "Callsign",
-    "department": "Department",
-    "gameHash": "Game Hash",
-    "file": "file",
-    "importValues": "Import via file",
-    "exportValues": "Export Values",
-    "ungrouped": "Ungrouped",
-    "licenseType": "License Type",
+    "totalItems": "Gesamtanzahl Gegenstände",
+    "values": "Werte",
+    "shouldDo": "Sollte tun",
+    "color": "Farbe",
+    "callsign": "Call-Signs",
+    "department": "Abteilung",
+    "gameHash": "Game-Hash",
+    "file": "datei",
+    "importValues": "Importiere aus Datei",
+    "exportValues": "Exportiere Werte",
+    "ungrouped": "Nicht gruppiert",
+    "licenseType": "Lizenz-Typ",
     "whitelisted": "Whitelisted",
-    "whatPages": "What Pages",
-    "departments": "Departments",
-    "isDefaultDepartment": "Default Department",
-    "deleteSelectedValues": "Delete Selected Values",
-    "isDefault": "Is Default",
-    "defaultOfficerRank": "Default Officer Rank",
-    "pairedUnitTemplate": "Paired Unit Template",
-    "isConfidential": "Is Confidential",
-    "priority": "Priority",
-    "isDisabled": "Disabled",
-    "county": "County",
-    "value": "Value",
-    "selectAll": "Select all {count}?",
-    "xItemsSelected": "{count} items selected.",
-    "noValuesForThisType": "There are no values created yet for this type.",
-    "cannotDeleteTooltip": "  You cannot delete this value because it is being used by another database item. You must first delete that item.",
-    "deletedSelectedValues": "Deleted {deleted} items. Failed to delete {failed} items.",
-    "failedDeleteValue": "Failed to delete <span>{value}</span>.",
-    "cacheTip": " Values are cached for 24 hours. This means that updated, added or deleted values may not immediately change. It could take up to 24 hours for the changes to take effect.",
-    "alert_deleteValue": "Are you sure you want to delete <span>{value}</span>? This action cannot be undone!",
-    "alert_deleteSelectedValues": "Are you sure you want to delete {length} items? This action cannot be undone",
-    "mustBeValidHexColor": "Must be a valid HEX Color",
-    "as": "As (this is so the database knows what to use.)",
-    "trimLevels": "Trim Levels",
-    "disabledDescription": "When a value is disabled, it will not be able to be selected in the dropdown.",
-    "postal": "Postal",
-    "callsignSymbol": "Callsign Symbol",
-    "defaultRank": "Default Rank",
-    "whitelistedDescription": "When a department is whitelisted, you can set 1 department as default. This department will be given to the officer when they are awaiting access or when they were declined.",
-    "defaultDepartment": "Default Department",
-    "isConfidentialDescription": "When a department is confidential, other officers will not be able to view information of other officers within this department.",
-    "extraFieldsDescription": "Allows you to set a JSON value to be used for extra fields. This can be useful when using the Public API for doing custom things.",
-    "extraFields": "Extra Fields (JSON)",
-    "divisions": "Divisions",
-    "defaultLicense": "Default License",
-    "defaultLicenseDescription": "This license will be given to a citizen when they are first created.",
-    "qualification": "Qualification",
-    "award": "Award",
-    "colorHex": "Color (#HEX)",
-    "codeType": "Code Type",
-    "license": "License",
-    "registrationStatus": "Registration Status",
-    "insuranceStatus": "Insurance Status",
-    "employee": "Employee",
+    "whatPages": "Was-Seite",
+    "departments": "Abteilungen",
+    "isDefaultDepartment": "Standard Abteilung",
+    "deleteSelectedValues": "Lösche ausgewählte Werte",
+    "isDefault": "Standard",
+    "defaultOfficerRank": "Standard Beamten-Rollen",
+    "pairedUnitTemplate": "Vorlage gepaarte Beamte",
+    "isConfidential": "Vertraulich",
+    "priority": "Priorität",
+    "isDisabled": "Deaktiviert",
+    "county": "Bezirk",
+    "value": "Wert",
+    "selectAll": "Alle {count} auswählen?",
+    "xItemsSelected": "{count} Gegenstände ausgewählt.",
+    "noValuesForThisType": "Es exis­tie­ren keine Werte für diesen Typ!",
+    "cannotDeleteTooltip": "Sie können den Wert nicht löschen, da er von einem anderen Gegenstand verwendet wird. Löschen Sie zu erst den anderen Gegenstand.",
+    "deletedSelectedValues": "Erfolgreich {deleted} Gegenstände gelöscht. {failed} nicht gelöschte Gegenstände.",
+    "failedDeleteValue": "Fehler beim löschen von <span>{value}</span> Gegenständen.",
+    "cacheTip": "Werte für 24h Zwischengespeichert, dies bedeutet das Ihre Änderung nicht direkt sichtbar sein kann, warten Sie bitte 24h ab.",
+    "alert_deleteValue": "Sind Sie sicher das Sie <span>{value}</span> entfernen wollen? Diese Aktion kann nicht rückgängig gemacht werden!",
+    "alert_deleteSelectedValues": "Sind Sie sicher das Sie {length} Gegenstände entfernen mlchten? Diese Aktion kann nicht rückgängig gemacht werden!",
+    "mustBeValidHexColor": "Fehlerhaftes Hex-Color",
+    "as": "Als (Damit die Datenbank weiß, was sie verwenden soll)",
+    "trimLevels": "Ausstattungsvarianten",
+    "disabledDescription": "Wird der Wert deaktiviert, wird dieser nicht mehr im DropDown-Menü erscheinen!",
+    "postal": "Postleitzahl",
+    "callsignSymbol": "Call-Sign-Symbol",
+    "defaultRank": "Standard Rang",
+    "whitelistedDescription": "Wenn die Abteilung auf der Whitelist steht, können Sie eine andere Abteilung als Standard festlegen, welcher als Ersatz für Beamte festgelegt wird.",
+    "defaultDepartment": "Standard Abteilung",
+    "isConfidentialDescription": "Wenn eine Abteilung als 'vertraulich' eingestuft ist, können andere Beamte, anderer Abteilungen, die Information nicht einsehen.",
+    "extraFieldsDescription": "Diese Funktion ermöglicht ein extra JSON-Feld festzulegen. Dies ist besonders hilfreich bei Nuzung der SnailyCAD-API.",
+    "extraFields": "Extra Feld (JSON)",
+    "divisions": "Abteilungen",
+    "defaultLicense": "Standard Lizenz",
+    "defaultLicenseDescription": "Diese Lizenz wird einem Bürger bei der ersten Erstellung ausgehändigt",
+    "qualification": "Qualifikation",
+    "award": "Vergeben",
+    "colorHex": "Farbe (#Hex)",
+    "codeType": "Code-Typ",
+    "license": "Lizenz",
+    "registrationStatus": "Status der Zulassung",
+    "insuranceStatus": "Status der Versicherung",
+    "employee": "Mitarbeiter",
     "manager": "Manager",
-    "owner": "Owner",
-    "import": "Import",
-    "importCitizens": "Import Citizens",
-    "importVehicles": "Import Vehicles",
-    "importWeapons": "Import Weapons",
-    "customCallsignTemplate": "Custom Callsign Template",
-    "customCallsignTemplateDescription": "When set, it will use this template over the global callsign template. You can use the following variables: {variables}",
-    "category": "Category"
+    "owner": "Inhaber",
+    "import": "Importieren",
+    "importCitizens": "Bürger importieren",
+    "importVehicles": "Fahrzeuge importieren",
+    "importWeapons": "Waffen importieren",
+    "customCallsignTemplate": "Vorlage Call-Sign",
+    "customCallsignTemplateDescription": "Diese Funktion legt fest die Vorlage anstatt des normalen Call-Signs verwendet wird. SIe können folgende Variable verwenden: {variables}",
+    "category": "Kategorie"
   },
   "PENAL_CODE_GROUP": {
-    "MANAGE": "Manage Penal Code Groups",
-    "ADD": "Add Penal Code Group",
-    "DELETE": "Delete Penal Code Group",
-    "EDIT": "Edit Penal Code Group",
-    "ungrouped": "Ungrouped",
-    "alert_deletePenalCodeGroup": "Are you sure you want to delete <span>{group}</span>? This action cannot be undone.",
-    "deleteGroup": "Delete Group"
+    "MANAGE": "Ändere Gesetz-Gruppe",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Gesetz-Gruppe",
+    "EDIT": "Ändere Gesetz-Gruppe",
+    "ungrouped": "Nicht gruppiert",
+    "alert_deletePenalCodeGroup": "Sind Sie sicher das Sie <span>{group}</span> entfernen wollen? Diese Aktion kann nicht rückgängig gemacht werden!",
+    "deleteGroup": "Lösche Gruppe"
   },
   "GENDER": {
-    "MANAGE": "Manage Genders",
-    "ADD": "Add Gender",
-    "DELETE": "Delete Gender",
-    "EDIT": "Edit Gender"
+    "MANAGE": "Geschlechter",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Geschlecht",
+    "EDIT": "Ändere Geschlecht"
   },
   "WEAPON": {
-    "MANAGE": "Manage Weapons",
-    "ADD": "Add Weapon",
-    "DELETE": "Delete Weapon",
-    "EDIT": "Edit Weapon"
+    "MANAGE": "Waffen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Waffe",
+    "EDIT": "Ändere Waffe"
   },
   "VEHICLE": {
-    "MANAGE": "Manage Vehicles",
-    "ADD": "Add Vehicle",
-    "DELETE": "Delete Vehicle",
-    "EDIT": "Edit Vehicle"
+    "MANAGE": "Fahrzeuge",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Fahrzeug",
+    "EDIT": "Ändere Fahrzeug"
   },
   "ETHNICITY": {
-    "MANAGE": "Manage Ethnicities",
-    "ADD": "Add Ethnicity",
-    "DELETE": "Delete Ethnicity",
-    "EDIT": "Edit Ethnicity"
+    "MANAGE": "Abstammung",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Abstammung",
+    "EDIT": "Ändere Abstammung"
   },
   "BLOOD_GROUP": {
-    "MANAGE": "Manage Blood Groups",
-    "ADD": "Add Blood Group",
-    "DELETE": "Delete Blood Group",
-    "EDIT": "Edit Blood Group"
+    "MANAGE": "Blutgruppen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Blutgruppe",
+    "EDIT": "Ändere Blutgruppe"
   },
   "LICENSE": {
-    "MANAGE": "Manage Licenses",
-    "ADD": "Add License",
-    "DELETE": "Delete License",
-    "EDIT": "Edit License"
+    "MANAGE": "Lizenzen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Lizenz",
+    "EDIT": "Ändere Lizenz"
   },
   "BUSINESS_ROLE": {
-    "MANAGE": "Manage Business Roles",
-    "ADD": "Add Business Role",
-    "DELETE": "Delete Business Role",
-    "EDIT": "Edit Business Role"
+    "MANAGE": "Unternehmens-Rollen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Unternehmens-Rolle",
+    "EDIT": "Ändere Unternehmens-Rolle"
   },
   "DEPARTMENT": {
-    "MANAGE": "Manage Departments",
-    "ADD": "Add Department",
-    "DELETE": "Delete Department",
-    "EDIT": "Edit Department"
+    "MANAGE": "Abteilungen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Abteilung",
+    "EDIT": "Ändere Abteilung"
   },
   "CODES_10": {
-    "MANAGE": "Manage 10 Codes",
-    "ADD": "Add 10 Code",
-    "DELETE": "Delete 10 Code",
-    "EDIT": "Edit 10 Code"
+    "MANAGE": "10-Codes",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche 10-Code",
+    "EDIT": "Ändere 10-Code"
   },
   "OFFICER_RANK": {
-    "MANAGE": "Manage Officer Ranks",
-    "ADD": "Add Officer Rank",
-    "DELETE": "Delete Officer Rank",
-    "EDIT": "Edit Officer Rank"
+    "MANAGE": "Beamten-Rollen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Beamten-Rolle",
+    "EDIT": "Ändere Beamten-Rolle"
   },
   "PENAL_CODE": {
-    "MANAGE": "Manage Penal Codes",
-    "ADD": "Add Penal Code",
-    "DELETE": "Delete Penal Code",
-    "EDIT": "Edit Penal Code"
+    "MANAGE": "Gesetze",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Gesetz",
+    "EDIT": "Ändere Gesetz"
   },
   "DIVISION": {
-    "MANAGE": "Manage Divisions",
-    "ADD": "Add Division",
-    "DELETE": "Delete Division",
-    "EDIT": "Edit Division"
+    "MANAGE": "Divisionen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Division",
+    "EDIT": "Ändere Division"
   },
   "DRIVERSLICENSE_CATEGORY": {
-    "MANAGE": "Manage License Categories",
-    "ADD": "Add Category",
-    "DELETE": "Delete Category",
-    "EDIT": "Edit Category"
+    "MANAGE": "Lizenz-Klassen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Lizenz-Klasse",
+    "EDIT": "Ändere Lizenz-Klasse"
   },
   "IMPOUND_LOT": {
-    "MANAGE": "Manage Impound Lots",
-    "ADD": "Add Impound Lot",
-    "DELETE": "Delete Impound Lot",
-    "EDIT": "Edit Impound Lot"
+    "MANAGE": "Verwahrstellen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Verwahrstelle",
+    "EDIT": "Ändere Verwahrstelle"
   },
   "VEHICLE_FLAG": {
-    "MANAGE": "Manage Vehicle flags",
-    "ADD": "Add vehicle flag",
-    "DELETE": "Delete vehicle flag",
-    "EDIT": "Edit vehicle flag"
+    "MANAGE": "Fahrzeug-Tags",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Fahrzeug-Tag",
+    "EDIT": "Ändere Fahrzeug-Tag"
   },
   "CITIZEN_FLAG": {
-    "MANAGE": "Manage Citizen flags",
-    "ADD": "Add citizen flag",
-    "DELETE": "Delete citizen flag",
-    "EDIT": "Edit citizen flag"
+    "MANAGE": "Bürger-Tags",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Bürger-Tag",
+    "EDIT": "Ändere Bürger-Tag"
   },
   "QUALIFICATION": {
-    "MANAGE": "Manage Unit Qualifications",
-    "ADD": "Add Unit Qualification",
-    "DELETE": "Delete Unit Qualification",
-    "EDIT": "Edit Unit Qualification"
+    "MANAGE": "Qualifikationen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Qualifikation",
+    "EDIT": "Ändere Qualifikation"
   },
   "CALL_TYPE": {
-    "MANAGE": "Manage Call Types",
-    "ADD": "Add Call Type",
-    "DELETE": "Delete Call Type",
-    "EDIT": "Edit Call Type"
+    "MANAGE": "Anruf-Typen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Anruf-Typ",
+    "EDIT": "Ändere Anruf-Typ"
   },
   "ADDRESS": {
-    "MANAGE": "Manage Addresses",
-    "ADD": "Add Address",
-    "DELETE": "Delete Address",
-    "EDIT": "Edit Address"
+    "MANAGE": "Adressen",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Adresse",
+    "EDIT": "Ändere Adresse"
   },
   "EMERGENCY_VEHICLE": {
-    "MANAGE": "Manage Emergency Vehicles",
-    "ADD": "Add Emergency Vehicle",
-    "DELETE": "Delete Emergency Vehicle",
-    "EDIT": "Edit Emergency Vehicle"
+    "MANAGE": "Rettungsfahrzeuge",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Rettungsfahrzeug",
+    "EDIT": "Ändere Rettungsfahrzeug"
   },
   "ADDRESS_FLAG": {
-    "MANAGE": "Manage Address flags",
-    "ADD": "Add address flag",
-    "DELETE": "Delete address flag",
-    "EDIT": "Edit address flag"
+    "MANAGE": "Adress-Tags",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Adress-Tag",
+    "EDIT": "Ändere Adress-Tag"
   },
   "VEHICLE_TRIM_LEVEL": {
     "MANAGE": "Manage Vehicle Trim Levels",
-    "ADD": "Add trim level",
-    "DELETE": "Delete trim level",
-    "EDIT": "Edit trim level"
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche trim level",
+    "EDIT": "Ändere trim level"
   },
   "WEAPON_FLAG": {
-    "MANAGE": "Manage Weapon flags",
-    "ADD": "Add weapon flag",
-    "DELETE": "Delete weapon flag",
-    "EDIT": "Edit weapon flag"
+    "MANAGE": "Waffen-Tags",
+    "ADD": "Hinzufügen",
+    "DELETE": "Lösche Waffen-Tag",
+    "EDIT": "Ändere Waffen-Tag"
   }
 }
